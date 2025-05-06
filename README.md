@@ -1,7 +1,7 @@
 # Final Project - Airbnb Property Clustering
 
 ## Perkenalan
-Halo, nama saya Mufti Habibie Alayubi, dan ini adalah final project saya untuk Rakamin. Proyek ini bertujuan untuk mengidentifikasi segmen-segmen properti yang relevan di platform Airbnb menggunakan teknik klasterisasi berdasarkan dataset Seattle Airbnb Open Data. Dalam proyek ini, saya menerapkan berbagai algoritma klasterisasi seperti K-Means, Agglomerative, Self-Organizing Map (SOM), dan DBSCAN untuk mengelompokkan properti berdasarkan harga, lokasi, fasilitas, dan jenis properti.
+Halo, nama saya Mufti Habibie Alayubi. ini Merupakan final project saya di Rakamin Academy. Proyek ini bertujuan untuk mengidentifikasi segmen-segmen properti yang relevan di platform Airbnb menggunakan teknik klasterisasi berdasarkan dataset Seattle Airbnb Open Data. Dalam proyek ini, saya menerapkan berbagai algoritma klasterisasi seperti K-Means, Agglomerative, Self-Organizing Map (SOM), dan DBSCAN untuk mengelompokkan properti berdasarkan harga, lokasi, fasilitas, dan jenis properti.
 
 ## Tujuan Proyek
 - **Mengidentifikasi Segmen Properti**: Menggunakan algoritma klasterisasi untuk mengelompokkan properti berdasarkan karakteristik yang serupa.
