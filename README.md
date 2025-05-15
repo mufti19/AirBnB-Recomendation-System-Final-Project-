@@ -16,12 +16,15 @@
 ---
 
 ## Analisis Data (Eksplorasi Data)
+1. **Distribusi Harga Properti**: Harga properti cenderung memiliki distribusi yang condong ke kanan (positif skew), yang menunjukkan mayoritas properti memiliki harga terjangkau.
+
 ![alt text](https://github.com/mufti19/AirBnB-Recomendation-System-Final-Project-/blob/main/Data%20Exploration/Property%20Price%20Distribution.png)<br>
-- **Distribusi Harga Properti**: Harga properti cenderung memiliki distribusi yang condong ke kanan (positif skew), yang menunjukkan mayoritas properti memiliki harga terjangkau.
+2. **Jenis Properti**: Tipe kamar *Entire home/apt* lebih banyak tersedia dibandingkan dengan jenis kamar lain seperti *Private room* dan *Shared room*.
+
 ![alt text](https://github.com/mufti19/AirBnB-Recomendation-System-Final-Project-/blob/main/Data%20Exploration/Number%20of%20Properties%20by%20Room%20Type.png)<br>
-- **Jenis Properti**: Tipe kamar *Entire home/apt* lebih banyak tersedia dibandingkan dengan jenis kamar lain seperti *Private room* dan *Shared room*.
+3. **Harga vs Rating Properti**: Banyak properti dengan harga tinggi memiliki rating yang baik, namun ada juga properti dengan harga rendah yang mendapatkan rating tinggi.
+
 ![alt text](https://github.com/mufti19/AirBnB-Recomendation-System-Final-Project-/blob/main/Data%20Exploration/Price%20vs%20Property%20Rating.png)<br>
-- **Harga vs Rating Properti**: Banyak properti dengan harga tinggi memiliki rating yang baik, namun ada juga properti dengan harga rendah yang mendapatkan rating tinggi.
 
 ---
 
