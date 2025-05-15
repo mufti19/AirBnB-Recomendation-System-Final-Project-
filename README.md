@@ -16,8 +16,11 @@
 ---
 
 ## Analisis Data (Eksplorasi Data)
+![alt text](https://github.com/mufti19/AirBnB-Recomendation-System-Final-Project-/blob/main/Data%20Exploration/Property%20Price%20Distribution.png)<br>
 - **Distribusi Harga Properti**: Harga properti cenderung memiliki distribusi yang condong ke kanan (positif skew), yang menunjukkan mayoritas properti memiliki harga terjangkau.
+![alt text](https://github.com/mufti19/AirBnB-Recomendation-System-Final-Project-/blob/main/Data%20Exploration/Number%20of%20Properties%20by%20Room%20Type.png)<br>
 - **Jenis Properti**: Tipe kamar *Entire home/apt* lebih banyak tersedia dibandingkan dengan jenis kamar lain seperti *Private room* dan *Shared room*.
+![alt text](https://github.com/mufti19/AirBnB-Recomendation-System-Final-Project-/blob/main/Data%20Exploration/Price%20vs%20Property%20Rating.png)<br>
 - **Harga vs Rating Properti**: Banyak properti dengan harga tinggi memiliki rating yang baik, namun ada juga properti dengan harga rendah yang mendapatkan rating tinggi.
 
 ---
@@ -51,11 +54,19 @@
   - **Davies-Bouldin Index**: Menilai kedekatan antar cluster, semakin rendah nilai ini semakin baik.
   - **Silhouette Score**: Menilai kualitas pemisahan cluster.
   - **Calinski-Harabasz Index**: Mengukur seberapa kompak dan terpisah antar cluster.
+
 - **Hasil Evaluasi**:
+
+| Model           | Davies-Bouldin Index | Silhouette Score | Calinski-Harabasz Index |
+|-----------------|----------------------|------------------|-------------------------|
+| KMeans          | 0.804                | 0.492            | 4.756.113               |
+| Agglomerative   | 0.807                | 0.478            | 4.348.488               |
+| DBSCAN          | 0.658                | 0.187            | 152.192                 |
+| SOM             | 0.927                | 0.409            | 3.648.951               |
+
   - **K-Means**: Metrik evaluasi menunjukkan performa terbaik dengan skor tinggi pada Davies-Bouldin Index dan Silhouette Score.
   - **DBSCAN**: Hasil kurang baik pada Silhouette Score, tetapi mampu mendeteksi beberapa outliers dengan baik.
   - **SOM**: Meskipun memadai, terdapat beberapa tumpang tindih antar cluster.
-
 ---
 
 ## Business Insight & Recommendations
